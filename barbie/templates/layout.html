@@ -1,0 +1,31 @@
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+<div class="hero">
+    <nav>
+        <h2 class="logo">Liver<span>pool</span> </h2>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about/">About</a></li>
+        <li> <a href="/progress/">Progress</a></li>
+        <li><a href="/news/">News</a></li>
+        <li><a href="/fanpage/">Fanpage</a></li>
+        <li><a href="/community/">Community</a></li>
+    </ul>
+    </nav>
+</div>
+
+{% block body %}
+
+
+
+{% endblock %}
+
+</body>
+</html>
